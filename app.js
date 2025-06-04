@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/champions', (req, res) => {
-  const rcb2024 = journeyData.find(j => j.year === 2024);
+  const rcb2024 = journeyData.find(j => j.year === 2025);
   res.render('champions', { victory: rcb2024 });
 });
 
