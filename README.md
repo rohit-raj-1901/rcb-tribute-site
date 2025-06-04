@@ -1,4 +1,4 @@
-# 🏏 RCB Tribute Website – IPL 2024 Champions 🏆
+# 🏏 RCB Tribute Website – IPL 2025 Champions 🏆
 
 A simple Node.js + Express + EJS website to celebrate RCB's first-ever IPL title!
 
