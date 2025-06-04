@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RCB Journey</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 RCB’s Journey: 2008 - 2024 🔥</h1>
+    <a href="/champions" style="color: #00e676;">See 2024 Champion Tribute 🏆</a>
+    <div class="timeline">
+      <% journey.forEach((year) => { %>
+        <div class="card <%= year.year === 2024 ? 'champion' : '' %>">
+          <h2><%= year.year %></h2>
+          <p><%= year.highlight %></p>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</body>
+</html>
